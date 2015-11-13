@@ -1,0 +1,515 @@
+<!doctype html>
+<!--Conditionals for IE9 Support-->
+<!--[if IE 9]><html lang="en" class="ie ie9"><![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>МетаСмета</title>
+    <meta name="description" content="Ultimate Responsive HTML5 Landing Page" />
+		<meta name="keywords" content="responsive html5 template, landing page, bootstrap 3.0, css, jquery" />
+		<meta name="author" content="8Guild" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <!--Favicon-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!--Google Fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'>
+    <!--Bootstrap 3.3.2-->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <!--Icon Fonts-->
+    <link href="css/font-awesome.min.css" rel="stylesheet" media="screen">
+    <link href="css/icon-moon.css" rel="stylesheet" media="screen">
+    <!--Animations-->
+    <link href="css/animate.css" rel="stylesheet" media="screen">
+    <!--Theme Styles-->
+    <link href="css/theme-styles.css" rel="stylesheet" media="screen">
+    <link href="css/custom.css" rel="stylesheet" media="screen">
+    <!--Color Schemes-->
+    <link class="color-scheme" href="css/colors/color-default.css" rel="stylesheet" media="screen">
+    <!--Modernizr-->
+		<script src="js/libs/modernizr.custom.js"></script>
+    <!--Adding Media Queries and Canvas Support for IE8-->
+    <!--[if lt IE 9]>
+      <script src="js/plugins/respond.min.js"></script>
+      <script src="js/plugins/excanvas.js"></script>
+    <![endif]-->
+    
+
+        
+  </head>
+
+  <!--Body-->
+  <body class="space-top">
+  
+    
+    
+  	<!--Page Preloading-->
+    <div id="preloader"><div id="spinner"></div></div>
+    
+    <!--Login Modal-->
+    <div class="light-skin modal fade" id="loginModal" tabindex="-1" role="form" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title">Login here</h4>
+          </div>
+          <div class="modal-body">
+            <form class="login-form" role="form">
+              <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" class="form-control" id="username" placeholder="Enter Username" required>
+              </div>
+              <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" placeholder="Enter Password" required>
+              </div>
+              <button type="submit" class="btn btn-primary">Авторизация</button>
+            </form>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+    
+    <!--Header-->
+    <header class="stiky-header">
+    	<div class="container group">
+      	<a class="logo" href="index.html"><img src="img/logo_b.png" alt="Ultima"/></a>
+        <a class="logo-mobile" href="index.html"><img src="img/logo-mobile1.png" alt="Ultima" width="37"/></a>
+       
+        <div class="navi-toggle group">
+        	<span class="dot"></span><span class="line"></span>
+          <span class="dot"></span><span class="line"></span>
+          <span class="dot"></span><span class="line"></span>
+          <span class="dot"></span><span class="line"></span>
+        </div>
+        
+          <div class="row header_right">
+              <div class="phone">8 800 555 3535</div>
+              <div class="mail">info@metasmeta.ru</div></div>
+      </div>
+
+         
+         
+      
+     <div class="container">
+         
+        <nav class="main-navi" style="box-shadow: 0px -2px 1px 0px rgba(119, 119, 119, 0.3);">
+        	<ul>
+          	<li style="padding:0;margin:0 30px;"><a class="scroll-up" href="#smety">Сметные программы</a></li>
+            <li style="padding:0;margin:0 30px;"><a href="#faq">Какую выбрать</a></li>
+            <li style="padding:0;margin:0 30px;"><a href="#features">Почему у нас</a></li>
+            <li style="padding:0;margin:0 30px;"><a href="#testimonials">Отзывы</a></li>
+            <li style="padding:0;margin:0 30px;"><a href="#contacts">Контакты</a></li>
+            <a style="margin-left:55px;margin-bottom:0;" class="btn btn-primary btn-sm" href="#" data-toggle="modal" data-target="#loginModal"><i class="icon-user"></i>Авторизация</a>
+          </ul>
+        </nav>
+     </div>
+    </header> 
+    
+    <!--Hero Unit with Slider-->
+    <section class="hero">
+    	<div class="container">
+        
+        <!--Hero Slider-->
+        <div class="row">
+          <div class="hero-slider">
+            <div class="slide first-slide">
+              <div class="col-lg-5 col-md-5 col-sm-5 animated">
+                <img class="pull-right" src="img/box.png"/>
+              </div>
+              <div class="col-lg-7 col-md-7 col-sm-7 animated">
+                <h2 style="margin-top:50px;" class="text-light text-left">Строительный эксперт</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo tempora, obcaecati recusandae dicta. Dignissimos vero, eos, qui, labore fuga magnam hic voluptatem laboriosam nobis assumenda quia. Sapiente quia incidunt, optio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum accusantium est cupiditate illo vero praesentium aliquam possimus veniam et tenetur provident iure voluptatibus animi, delectus fugiat dicta, perferendis repudiandae, blanditiis. </p>
+                <a class="btn btn-primary" href="#">Подробнее</a>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="col-lg-5 col-md-5 col-sm-5 animated fadeInUp">
+                <h2 style="margin-top:50px;" class="text-light text-left">Coming Soon Page</h2>
+                <p>Have a look at Ultima Coming soon page!</p>
+                <p>While your landing page is under construction show your visitors beautiful coming soon page with the coundown and subscription form.</p>
+                <p>And they always stay connected.</p>
+                <a class="btn btn-primary" href="coming-soon.html">Go to Coming soon page</a>
+              </div>
+              <div class="col-lg-7 col-md-7 col-sm-7 animated fadeInRight">
+                <img class="iphone" src="img/hero-slider/iphone.png" width="649" height="400" alt="Coming Soon Page"/>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="col-lg-4 col-md-4 col-sm-4 animated fadeInDown">
+                <h2 style="margin-top:70px;" class="text-light text-left">Some Heading</h2>
+                <p>You shall not pass this theme!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                <a class="btn btn-primary" href="#">Push it!</a>
+              </div>
+              <div class="col-lg-8 col-md-8 col-sm-8 animated fadeInRight">
+              	<div class="video">
+                  <img src="img/hero-slider/macbook.png" width="782" height="422" alt=""/>
+                  <div class="vide-holder">
+                    <iframe src="//player.vimeo.com/video/79036490?byline=0&amp;portrait=0&amp;color=ffeeac" width="720" height="405"></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!--Close Hero Slider-->
+      </div>    	
+    </section><!--Close Hero-->
+    
+    <!--Features-->
+    <section class="page-block" id="smety">
+    	<div class="container">
+        <div class="row page-header">
+          <h2>Сметные программы</h2>
+          <span style="font-size:18px;">Наша компания предлагает широкий выбор высякого сметного софта, в котором легко запутаться, как в трех соснах, потому что это замороченные софтины различаются разве что по названию и скорости работы, а в остальном в них сам сука-черт голову сломит.</span>
+        </div>
+        </div>
+      
+      
+      <!--Tabs-->
+      <div class="container-fluid">
+        <div class="row">
+          <!-- Nav tabs -->
+          <ul class="nav nav-tabs central">
+            <li class="active"><a href="#clean-code" data-toggle="tab">Турбо сметчик</a></li>
+            <li><a href="#font-icons" data-toggle="tab">ГРАНД Смета</a></li>
+            <li><a href="#more" data-toggle="tab">Смета.ру</a></li>
+            <li><a href="#more" data-toggle="tab">Госстройсмета</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- Tab panes -->
+      <div class="container">
+        <div class="row tab-content central">
+          <div class="tab-pane fade in active col-lg-12" id="clean-code">
+          	<div class="row">
+            	<div class="col-lg-4 col-md-4 animated fadeInLeft">
+                <img  style="height:300px;" src="img/g1.png" alt="Clean Code"/>
+              </div>
+            	<div class="col-lg-8 col-md-8 animated fadeInRight">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <h2>Турбо сметчик</h2>
+                    <p class="double-space-bottom">Программа "ТУРБО сметчик" предназначена для составления и проверки локальных смет, актов выполненых работ, компенсации стоимости ресурсов, ресурсных ведомостей, форм списания материалов, накопительных ведомостей и др. Из многообразия предложений на рынке сметного программного обеспечения "ТУРБО сметчик" выделяют удобный и простой интерфейс</p>
+                  <a class="btn btn-primary" href="">Заказать</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade col-lg-12" id="font-icons">
+          	<div class="row">
+            	<div class="col-lg-4 col-md-4 animated fadeInLeft">
+                <img style="height:300px;" src="img/g2.png" alt="Font Icons"/>
+              </div>
+            	<div class="col-lg-8 col-md-8 animated fadeInRight">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <h2>ГРАНД Смета</h2>
+                    <p class="double-space-bottom">Программа "ТУРБО сметчик" предназначена для составления и проверки локальных смет, актов выполненых работ, компенсации стоимости ресурсов, ресурсных ведомостей, форм списания материалов, накопительных ведомостей и др. Из многообразия предложений на рынке сметного программного обеспечения "ТУРБО сметчик" выделяют удобный и простой интерфейс</p>
+                  <a class="btn btn-primary" href="">Заказать</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade col-lg-12" id="more">
+          	<div class="row">
+            	<div class="col-lg-6 col-md-6 animated fadeInLeft">
+                <img class="img-center" src="img/features/3.png" alt="More Features"/>
+              </div>
+            	<div class="col-lg-6 col-md-6 animated fadeInRight">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <h2>More features overview</h2>
+                    <p class="double-space-bottom">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-2"><i class="feature-icon icon-youtube"></i></div>
+                  <div class="col-lg-10">
+                  	<p class="double-space-bottom">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-2"><i class="feature-icon icon-compass"></i></div>
+                  <div class="col-lg-10">
+                  	<p class="double-space-bottom">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-2"><i class="feature-icon icon-cog"></i></div>
+                  <div class="col-lg-10">
+                  	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+<section class="page-block faq -margin" id="faq">
+    	<div class="container margin">
+        <div class="row page-header">
+          <h2>Какую сметную программу выбрать?</h2>
+          <span>Ответьте на несколько вопросов, чтобы определиться с выбором</span>
+        </div>
+        <div class="row">
+        	<div class="col-lg-3 col-md-3 col-sm-3">
+          	<img class="img-center" src="img/faq-icon1.png" alt="FAQ"/>
+          </div>
+        	<div class="col-lg-6 col-md-6 col-sm-6">
+            <div class="panel-group" id="accordion-faq">
+              <div class="panel">
+                <a class="panel-heading collapsed" data-toggle="collapse" data-parent="#accordion-faq" href="#collapse1">FAQ 01
+                  <div class="indicator"><div class="icon"><span class="hr-line"></span><span class="vr-line"></span></div></div>
+                </a>
+                <div id="collapse1" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione.
+                  </div>
+                </div>
+              </div>
+              <div class="panel">
+                <a class="panel-heading collapsed" data-toggle="collapse" data-parent="#accordion-faq" href="#collapse2">FAQ 02
+                  <div class="indicator"><div class="icon"><span class="hr-line"></span><span class="vr-line"></span></div></div>
+                </a>
+                <div id="collapse2" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione.
+                  </div>
+                </div>
+              </div>
+              <div class="panel">
+                <a class="panel-heading" data-toggle="collapse" data-parent="#accordion-faq" href="#collapse3">FAQ 03
+                  <div class="indicator"><div class="icon"><span class="hr-line"></span><span class="vr-line"></span></div></div>
+                </a>
+                <div id="collapse3" class="panel-collapse collapse in">
+                  <div class="panel-body">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+            <div class="col-lg-3 col-md-3 col-sm-3">
+                <h3 style="margin-top:0;">Заголовок</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem numquam, at possimus. Libero numquam inventore tempora doloribus, magnam, voluptate itaque consectetur necessitatibus, harum dicta fugit. Repellat omnis amet ex quae.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus iusto, dolore vel! Voluptatum eius enim, iste, dignissimos sed eum a, ab, sunt numquam maxime temporibus voluptas. Necessitatibus numquam quasi ipsam.</p>
+            </div>
+        </div>
+      </div>
+    </section>
+ 
+       <section class="page-block -margin" id="features">
+    	<div class="container margin">
+        <div class="row page-header">
+          <h2>Почему мы?</h2>
+        </div>
+        <div class="row features">
+          <div class="col-lg-4 col-md-4 col-sm-4">
+            <div class="feature-img"><img src="img/w1.png" alt="Editable colors"/></div>
+            <h3>Editable colors</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo.</p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4">
+            <div class="feature-img"><img src="img/w1.png" alt="All you need for start"/></div>
+            <h3>All you need for start</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo.</p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4">
+            <div class="feature-img"><img src="img/w1.png" alt="Clean code"/></div>
+            <h3>Clean code</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo.</p>
+          </div>
+        </div>
+        <div class="row features">
+          <div class="col-lg-4 col-md-4 col-sm-4">
+            <div class="feature-img"><img src="img/w1.png" alt="Editable colors"/></div>
+            <h3>Editable colors</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo.</p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4">
+            <div class="feature-img"><img src="img/w1.png" alt="All you need for start"/></div>
+            <h3>All you need for start</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo.</p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4">
+            <div class="feature-img"><img src="img/w1.png" alt="Clean code"/></div>
+            <h3>Clean code</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo.</p>
+          </div>
+        </div>
+      </div>
+      
+      
+     
+    </section>
+        
+    
+
+    
+    <!--Testimonials-->
+    <section class="page-block color -margin" id="testimonials">
+    	<div class="container margin">
+        <div class="row page-header" style="margin-bottom:0;">
+          <h2 class="text-light">Отзывы</h2>
+        </div>
+        <div class="row">
+          <div id="testimonials-slider" class="testimonials-slider carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#testimonials-slider" data-slide-to="0" class="active"></li>
+              <li data-target="#testimonials-slider" data-slide-to="1"></li>
+              <li data-target="#testimonials-slider" data-slide-to="2"></li>
+            </ol>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-4">
+                      <img class="img-circle img-center" src="img/testimonials/dirk.png" width="192" height="192" alt="Dexter Dirk"/>
+                    </div>
+                    <div class="col-lg-9 col-md-9 col-sm-8">
+                      <blockquote>
+                        <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                        <footer class="text-light">Dexter Dirk</footer>
+                      </blockquote>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-4">
+                      <img class="img-circle img-center" src="img/testimonials/roe.png" width="192" height="192" alt="Richard Roe"/>
+                    </div>
+                    <div class="col-lg-9 col-md-9 col-sm-8">
+                      <blockquote>
+                        <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                        <footer class="text-light">Richard Roe</footer>
+                      </blockquote>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-4">
+                      <img class="img-circle img-center" src="img/testimonials/doe.png" width="192" height="192" alt="Jonathan Doe"/>
+                    </div>
+                    <div class="col-lg-9 col-md-9 col-sm-8">
+                      <blockquote>
+                        <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                        <footer class="text-light">Jonathan Doe</footer>
+                      </blockquote>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    
+    <!--Contacts-->
+    <section class="page-block contacts" >
+    	<div class="container" id="contacts">
+        <div class="row page-header">
+          <h2>Контакты</h2>
+          <span style="font-size:18px;">Вы можете связаться с нами любым удобным для Вас способом по будням в рабочее время, либо оставить нам сообщение, которое мы обязательно прочтем и непременно Вам ответим. С наилучшеми пожеланиями. Компания "Метасмета" ;)</span>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-4 col-lg-offset-1">
+          	<div class="row ">
+            	<div class="col-lg-8 col-md-8">
+              	<h3>Наш адрес:</h3>
+              </div>
+            </div>
+            <div class="row">
+            	<div class="col-lg-12" style="font-size:16px;">
+              	<p>Москва, Подсосенский пер., д. 21 стр. 1-1а. (м. Курская)</p>
+              </div>
+            </div>
+          	<div class="row">
+            	<div class="col-lg-8 col-md-8">
+              	<h3>Телефоны:</h3>
+              </div>
+            </div>
+            <div class="row">
+            	<div class="col-lg-12" style="font-size:16px;">
+              	<p>Офис: 8 800 100 00 00<br/>Моб: +7 916 3222231<br/></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8 col-md-9">
+            <div class="row">
+            	<div class="col-lg-12">
+                <form method="post" class="feedback-form ajax-form" role="form">
+                  <div class="form-group">
+                    <label class="sr-only" for="name1">Name</label>
+                    <input type="text" class="form-control" name="name" id="name1" placeholder="Ваше имя">
+                  </div>
+                  <div class="form-group">
+                    <label class="sr-only" for="email1">Email</label>
+                    <input type="email" class="form-control" name="email" id="email1" placeholder="Email">
+                  </div>
+                  <div class="form-group">
+                    <label class="sr-only" for="message">Message</label>
+                    <textarea class="form-control" name="message" id="message" rows="5" placeholder="Ваше сообщение"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Отправить</button>
+                  <!-- Validation Response -->
+                  <div class="response-holder"></div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    <!--Footer-->
+    <footer class="footer">
+    	<div class="container">
+      	<div class="row">
+        	<div class="col-lg-12">
+          	<h3 class="text-center text-light">2015 OOO "Метасмета"</h3>
+          </div>
+        </div>
+        </div>
+    </footer>
+    
+    <!--Scroll To Top Button-->
+    <div id="scroll-top" class="scroll-up"><i class="icon-arrow-up"></i></div>
+    
+    <!--Javascript (jQuery) Libraries and Plugins-->
+    <script src="js/libs/jquery-1.11.2.min.js"></script>
+		<script src="js/libs/jquery.easing.1.3.js"></script>
+		<script src="js/plugins/bootstrap.min.js"></script>
+		<script src="js/plugins/jquery.touchSwipe.min.js"></script>
+		<script src="js/plugins/jquery.placeholder.js"></script>
+    <script src="js/plugins/icheck.min.js"></script>
+    <script src="js/plugins/jquery.validate.min.js"></script>
+		<script src="js/plugins/gallery.js"></script>
+    <script src="js/plugins/jquery.fitvids.js"></script>
+		<script src="js/plugins/jquery.bxslider.min.js"></script>
+		<script src="js/plugins/chart.js"></script>
+		<script src="js/plugins/waypoints.min.js"></script>
+    <script src="js/plugins/smoothscroll.js"></script>
+		<script src="js/plugins/color-switcher.js"></script>
+    <script src="mailer/mailer.js"></script>
+		<script src="js/landing2.js"></script>
+    
+    
+  </body><!--Close Body-->
+</html>

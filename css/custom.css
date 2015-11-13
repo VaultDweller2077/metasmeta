@@ -1,0 +1,56 @@
+
+.log {
+    padding: 0;
+}
+
+.meta_logo {
+    max-height: 55px;
+}
+
+.phone {
+   font-size: 24px;
+  
+
+    
+}
+
+
+.nav_element {
+    padding-top: 0;
+    padding-bottom: 0; 
+}
+
+.logo_main {
+    height: 99px;
+}
+
+.mail {
+    font-size: 18px;
+
+
+}
+
+.height {
+    height: 100px;
+}
+
+.logo_h {
+    height: 75px;
+    min-width: 299px;
+}
+
+
+
+.header_right {
+    float:right;
+    margin: 15px 20px 20px 0px;
+    width:200px;
+}
+
+.margin {
+   margin-top:60px;
+}
+
+.-margin {
+    margin-top:-60px;
+}
