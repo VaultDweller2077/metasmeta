@@ -52,17 +52,17 @@
         <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-            <h4 class="modal-title">Login here</h4>
+            <h4 class="modal-title">Авторизация</h4>
           </div>
           <div class="modal-body">
             <form class="login-form" role="form">
               <div class="form-group">
-                <label for="username">Username</label>
-                <input type="text" class="form-control" id="username" placeholder="Enter Username" required>
+                <label for="username">Имя</label>
+                <input type="text" class="form-control" id="username" placeholder="Введите имя пользователя" required>
               </div>
               <div class="form-group">
-                <label for="password">Password</label>
-                <input type="password" class="form-control" id="password" placeholder="Enter Password" required>
+                <label for="password">Пароль</label>
+                <input type="password" class="form-control" id="password" placeholder="Введите пароль" required>
               </div>
               <button type="submit" class="btn btn-primary">Авторизация</button>
             </form>
@@ -77,31 +77,34 @@
       	<a class="logo" href="index.html"><img src="img/logo_b.png" alt="Ultima"/></a>
         <a class="logo-mobile" href="index.html"><img src="img/logo-mobile1.png" alt="Ultima" width="37"/></a>
        
-        <div class="navi-toggle group">
+        <div class="navi-toggle group" style="margin-left:-10px;">
         	<span class="dot"></span><span class="line"></span>
           <span class="dot"></span><span class="line"></span>
           <span class="dot"></span><span class="line"></span>
           <span class="dot"></span><span class="line"></span>
         </div>
-        
-          <div class="row header_right">
-              <div class="phone">8 800 555 3535</div>
-              <div class="mail">info@metasmeta.ru</div></div>
+       
+        <div class="group">
+              
+              
+               <a style="display:inline;float:right;margin:30px 10px 0px 0px;" class="btn btn-primary btn-sm" href="#" data-toggle="modal" data-target="#loginModal"><i class="icon-user"></i>Авторизация</a>
+               <div class="phone" style="display:inline;float:right;margin: 30px 10px 0px 0px;"><img style="display:inline;margin-right:5px;margin-bottom:5px;" src="img/phone.png" width="30" alt="">8 800 555 3535</div>
+               <div class="mail" style="display:inline;float:right;margin: 30px 10px 0px 0px;"><img style="display:inline;margin-right:5px;margin-bottom:5px;" src="img/mail.png" width="30" alt="">info@metasmeta.ru</div>
       </div>
 
-         
+         </div>
          
       
-     <div class="container">
+     <div class="container" style="box-shadow: 0px -1px 0px 0px rgba(119, 119, 119, 0.3);margin-top:10px;">
          
-        <nav class="main-navi" style="box-shadow: 0px -2px 1px 0px rgba(119, 119, 119, 0.3);">
+        <nav class="main-navi">
         	<ul>
-          	<li style="padding:0;margin:0 30px;"><a class="scroll-up" href="#smety">Сметные программы</a></li>
-            <li style="padding:0;margin:0 30px;"><a href="#faq">Какую выбрать</a></li>
-            <li style="padding:0;margin:0 30px;"><a href="#features">Почему у нас</a></li>
-            <li style="padding:0;margin:0 30px;"><a href="#testimonials">Отзывы</a></li>
-            <li style="padding:0;margin:0 30px;"><a href="#contacts">Контакты</a></li>
-            <a style="margin-left:55px;margin-bottom:0;" class="btn btn-primary btn-sm" href="#" data-toggle="modal" data-target="#loginModal"><i class="icon-user"></i>Авторизация</a>
+          	<li style="margin:0 50px;"><a class="scroll-up" href="#smety">Сметные программы</a></li>
+            <li style="margin:0 50px;"><a href="#faq">Какую выбрать</a></li>
+            <li style="margin:0 50px;"><a href="#features">Почему у нас</a></li>
+            <li style="margin:0 50px;"><a href="#testimonials">Отзывы</a></li>
+            <li style="margin:0 50px;"><a href="#contacts">Контакты</a></li>
+           
           </ul>
         </nav>
      </div>
@@ -115,12 +118,12 @@
         <div class="row">
           <div class="hero-slider">
             <div class="slide first-slide">
-              <div class="col-lg-5 col-md-5 col-sm-5 animated">
+              <div class="col-lg-4 col-md-4 col-sm-4 animated">
                 <img class="pull-right" src="img/box.png"/>
               </div>
-              <div class="col-lg-7 col-md-7 col-sm-7 animated">
-                <h2 style="margin-top:50px;" class="text-light text-left">Строительный эксперт</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo tempora, obcaecati recusandae dicta. Dignissimos vero, eos, qui, labore fuga magnam hic voluptatem laboriosam nobis assumenda quia. Sapiente quia incidunt, optio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum accusantium est cupiditate illo vero praesentium aliquam possimus veniam et tenetur provident iure voluptatibus animi, delectus fugiat dicta, perferendis repudiandae, blanditiis. </p>
+              <div class="col-lg-8 col-md-8 col-sm-8 animated">
+                <h2 class="text-light text-left">СТРОИТЕЛЬНЫЙ ЭКСПЕРТ</h2>
+                <p style="font-size:15px;line-height: 200%;margin-bottom:0;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo tempora, obcaecati recusandae dicta. Dignissimos vero, eos, qui, labore fuga magnam hic voluptatem laboriosam nobis assumenda quia. Sapiente quia incidunt, optio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum accusantium est cupiditate illo vero praesentium aliquam possimus veniam et tenetur provident iure voluptatibus animi, delectus fugiat dicta, perferendis repudiandae, blanditiis. </p>
                 <a class="btn btn-primary" href="#">Подробнее</a>
               </div>
             </div>
@@ -172,10 +175,10 @@
         <div class="row">
           <!-- Nav tabs -->
           <ul class="nav nav-tabs central">
-            <li class="active"><a href="#clean-code" data-toggle="tab">Турбо сметчик</a></li>
-            <li><a href="#font-icons" data-toggle="tab">ГРАНД Смета</a></li>
-            <li><a href="#more" data-toggle="tab">Смета.ру</a></li>
-            <li><a href="#more" data-toggle="tab">Госстройсмета</a></li>
+            <li class="active"><a style="padding-left:25px;padding-right:25px;" href="#clean-code" data-toggle="tab">Турбо сметчик</a></li>
+            <li><a style="padding-left:25px;padding-right:25px;" href="#font-icons" data-toggle="tab">ГРАНД Смета</a></li>
+            <li><a style="padding-left:25px;padding-right:25px;" href="#more" data-toggle="tab">Смета.ру</a></li>
+            <li><a style="padding-left:25px;padding-right:25px;" href="#more" data-toggle="tab">Госстройсмета</a></li>
           </ul>
         </div>
       </div>
@@ -184,14 +187,14 @@
         <div class="row tab-content central">
           <div class="tab-pane fade in active col-lg-12" id="clean-code">
           	<div class="row">
-            	<div class="col-lg-4 col-md-4 animated fadeInLeft">
-                <img  style="height:300px;" src="img/g1.png" alt="Clean Code"/>
+            	<div class="col-lg-3 col-md-3 animated fadeInLeft">
+                <img  style="height:220px;" src="img/ts.png" alt="Clean Code"/>
               </div>
-            	<div class="col-lg-8 col-md-8 animated fadeInRight">
+            	<div class="col-lg-9 col-md-9 animated fadeInRight">
                 <div class="row">
-                  <div class="col-lg-12">
-                    <h2>Турбо сметчик</h2>
-                    <p class="double-space-bottom">Программа "ТУРБО сметчик" предназначена для составления и проверки локальных смет, актов выполненых работ, компенсации стоимости ресурсов, ресурсных ведомостей, форм списания материалов, накопительных ведомостей и др. Из многообразия предложений на рынке сметного программного обеспечения "ТУРБО сметчик" выделяют удобный и простой интерфейс</p>
+                  <div class="col-lg-10" style="padding-left:0;">
+                    <h2 style="margin-top:0;">Турбо сметчик</h2>
+                    <p style="line-height: 200%;">Программа "ТУРБО сметчик" предназначена для составления и проверки локальных смет, актов выполненых работ, компенсации стоимости ресурсов, ресурсных ведомостей, форм списания материалов, накопительных ведомостей и др. Из многообразия предложений на рынке сметного программного обеспечения "ТУРБО сметчик" выделяют удобный и простой интерфейс</p>
                   <a class="btn btn-primary" href="">Заказать</a>
                   </div>
                 </div>
@@ -311,35 +314,35 @@
         <div class="row features">
           <div class="col-lg-4 col-md-4 col-sm-4">
             <div class="feature-img"><img src="img/w1.png" alt="Editable colors"/></div>
-            <h3>Editable colors</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo.</p>
+            <h3>Помощь в  выборе программ</h3>
+            <p class="features_p">Мгновенные вычисления. Все групповые операции происходят незаметно для пользователя, не отвлекая его внимания и времени на ожидание.</p>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-4">
-            <div class="feature-img"><img src="img/w1.png" alt="All you need for start"/></div>
-            <h3>All you need for start</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo.</p>
+            <div class="feature-img"><img src="img/2.jpg" alt="All you need for start"/></div>
+            <h3>Любые формы чего-то там</h3>
+            <p class="features_p">Задача организации, в особенности же реализация намеченных плановых заданий способствует подготовки и реализации дальнейших направлений развития.</p>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-4">
-            <div class="feature-img"><img src="img/w1.png" alt="Clean code"/></div>
-            <h3>Clean code</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo.</p>
+            <div class="feature-img"><img src="img/3.jpg" alt="Clean code"/></div>
+            <h3>Доставка</h3>
+            <p class="features_p">Притараним хоть в Пекин. Любой каприз, оцененный по достоинству в хрустящих бумажках мы выполним для вас со всей нашей расторопностью</p>
           </div>
         </div>
         <div class="row features">
           <div class="col-lg-4 col-md-4 col-sm-4">
-            <div class="feature-img"><img src="img/w1.png" alt="Editable colors"/></div>
-            <h3>Editable colors</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo.</p>
+            <div class="feature-img"><img src="img/4.jpg" alt="Editable colors"/></div>
+            <h3>Помощь в установке</h3>
+            <p class="features_p">Поставим хоть на телефон, лишь бы там была винда. Не важно, что будет тормозить. После это уже будут не наши проблемы. И не говорите, что мы не предупреждали</p>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-4">
-            <div class="feature-img"><img src="img/w1.png" alt="All you need for start"/></div>
-            <h3>All you need for start</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo.</p>
+            <div class="feature-img"><img src="img/5.jpg" alt="All you need for start"/></div>
+            <h3>Обучение</h3>
+            <p class="features_p">Обучим хоть вашего сторожа. Вдруг из него выйдет продвинутый сметчик. У нас богатый опыт обучения всяких клуш различного калибра</p>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-4">
-            <div class="feature-img"><img src="img/w1.png" alt="Clean code"/></div>
-            <h3>Clean code</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo.</p>
+            <div class="feature-img"><img src="img/6.jpg" alt="Clean code"/></div>
+            <h3>Он-лайн консультации и поддержка</h3>
+            <p class="features_p">Проффесионально трем мозги вашим сотрудникам в течении оговоренного периода времени. А дальше только за бабло.</p>
           </div>
         </div>
       </div>
@@ -423,12 +426,12 @@
     <!--Contacts-->
     <section class="page-block contacts" >
     	<div class="container" id="contacts">
-        <div class="row page-header">
+        <div class=" page-header" style="margin-bottom:30px;">
           <h2>Контакты</h2>
-          <span style="font-size:18px;">Вы можете связаться с нами любым удобным для Вас способом по будням в рабочее время, либо оставить нам сообщение, которое мы обязательно прочтем и непременно Вам ответим. С наилучшеми пожеланиями. Компания "Метасмета" ;)</span>
+          <div style="text-align:left;line-height: 200%;"><span style="font-size:18px;">Вы можете связаться с нами любым удобным для Вас способом по будням в рабочее время, либо оставить нам сообщение, которое мы обязательно прочтем и непременно Вам ответим. С наилучшеми пожеланиями. Компания "Метасмета" ;)</span></div>
         </div>
         <div class="row">
-          <div class="col-lg-3 col-md-4 col-lg-offset-1">
+          <div class="col-lg-3 col-md-4">
           	<div class="row ">
             	<div class="col-lg-8 col-md-8">
               	<h3>Наш адрес:</h3>
@@ -450,7 +453,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-8 col-md-9">
+          <div class="col-lg-9 col-md-9">
             <div class="row">
             	<div class="col-lg-12">
                 <form method="post" class="feedback-form ajax-form" role="form">
