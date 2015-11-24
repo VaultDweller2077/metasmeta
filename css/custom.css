@@ -62,3 +62,9 @@
     font-size:16px;
     line-height: 20px;
 }
+
+.header_menu {
+    display:inline;float:right;margin:30px 10px 0px 0px;
+}
+
+
